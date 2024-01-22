@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+    width: 100%;
+    height: 100vh;
+}
+#banner .container{
+    width: 1320px;
+}
+#banner .container .banner-mian{
+}
+.banner-mian ul li{
+    display: inline-block;
+    list-style: none;
+
+}

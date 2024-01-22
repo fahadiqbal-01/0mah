@@ -1,0 +1,471 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ========== nav css start ========== */
+nav{
+    width: 100%;
+    position: absolute;
+    margin-top: 50px;
+}
+.container {
+    width: 1166px;
+    margin: auto;   
+}
+.container .nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+nav .container .nav-main ul{
+    display: flex;
+    gap: 100px;
+    
+ }
+ nav .container .nav-main ul li{
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239;
+    text-transform: uppercase;
+    list-style: none;
+    transition: 0.3s;
+    position: relative;
+    padding: 50px 0;
+ }
+ nav .nav-main ul li::before{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #F6762E;
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    transition: .3s;
+ }
+ nav .container .nav-main ul li:hover::before{
+    width: 50%;
+ }
+ nav .container .nav-main ul li:hover{
+    font-weight: 600;
+ }
+/* ========== nav css end ========== */
+
+/* ========== banner css start ========== */
+#banner{
+   width: 100%;
+   background: #EEEDDE;
+}
+.container{
+   width: 1166px;
+}
+#banner .banner-main{
+   display: flex;
+   justify-content: space-between;
+   gap: 16px;
+   padding-top: 257px;
+}
+.banner-main .left h1{
+   font-size: 56px;
+   font-weight: 600;
+   line-height: 150%;
+   color: #203239;
+}
+.banner-main .left p{
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 30px;
+   color: rgba(31, 49, 55, 55%);
+   width: 544px;
+   margin-top: 24px;
+}
+.banner-main .left input{
+   width: 508px;
+   height: 70px;
+   background: #FFFFFF;
+   border: 0;
+   border-radius: 15px;
+   padding-left: 56px;
+}
+.banner-main .left input::placeholder{
+   font-size: 16px;
+   font-weight: 300;
+   color: rgba(31, 49, 55, 55%);
+}
+.banner-main .left .search-box{
+   position: relative;
+}
+.banner-main .left .search-box i{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 20px;
+   font-size: 24px;
+}
+.banner-main .left .banner-input{
+   display: flex;
+   gap: 15px;
+   margin-top: 55px;
+}
+.banner-main .left .banner-input a{
+   font-size: 16px;
+   font-weight: 300;
+   color: rgba(31, 49, 55, 55%);
+   background: #FFFFFF;
+   padding: 23px 41px;
+   border-radius: 15px;
+   text-decoration: none;
+}
+/* ========== banner css end ========== */
+
+/* ========== about css start ========== */
+#about{
+   width: 100%;
+}
+.text-area{
+   padding: 100px 0;
+}
+.text-area h2{
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 150%;
+   color: #203239;
+   width: 533px;
+}
+.wrapper{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 64px;
+}
+.text-box1{
+   width: 300px;
+   padding-top: 20px;
+   padding-left: 33px;
+   padding-bottom: 20px;
+   border: 1px solid transparent;
+   border-radius: 10px;
+   position: relative;
+}     
+.text-box1:hover{
+   border: 1px solid;
+   border-color: #EEEDDE;
+}
+.text-box1 .top{
+   display: flex;
+   align-items: center;
+   gap: 132px;
+}
+.text-box1 .top2{
+   display: flex;
+   align-items: center;
+   gap: 110px;
+}
+.text-box1 .top3{
+   display: flex;
+   align-items: center;
+   gap: 84px;
+}
+.text-box1 h4{
+   font-size: 16px;
+   font-weight: 500;
+   color: #203239;
+}
+.text-box1 h5{
+   font-size: 16px;
+   font-weight: 500;
+   color: #FF7527;
+}
+.text-box1 p{
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 30px;
+   color: rgba(31, 49, 55, 55%);
+   width: 235px;
+   margin-top: 8px;
+}
+.text-box1 .bottom{
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   margin-top: 48px;
+}
+.text-box1 .bottom2{
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   margin-top: 78px;
+}
+.text-box1 h3{
+   font-size: 16px;
+   font-weight: 500;
+   color: #203239;
+}
+.text-box1 a{
+   display: block;
+   color: #203239;
+}
+.text-box1 .orange{
+   height: 30px;
+   width: 8px;
+   background: #FF7527;
+   border: 0;
+   border-radius: 6px;
+   position: absolute;
+   top:42px;
+   left: 0;
+}
+/* ========== about css end ========== */
+
+/* ========== explore css start ========== */
+#explore{
+   width: 100%;
+   background: #EEEDDE;
+}
+#explore .container{
+   width: 1166px;
+}
+.ex-main {
+   padding: 68px 0;
+}
+.ex-main .text-area{
+   display: flex;
+   justify-content: space-between;
+}
+.ex-main h4{
+   font-size: 16px;
+   font-weight: 500;
+   color: #FF7527;
+}
+.ex-main h2{
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 150%;
+   color: #203239;
+   margin-top: 8px;
+}
+.ex-main .left{
+   width: 551px;
+   position: relative;
+}
+.ex-main .left .img2{
+   position: absolute;
+   top: 60px;
+   left: 167px;
+}
+.ex-main .right{
+   width: 551px;
+}
+.ex-main .right .contact{
+   position: relative;
+   margin-top: 48px;
+}
+.ex-main .right h3{
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 150%;
+   color: #203239;
+}
+.ex-main .right p{
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 30px;
+   color: #203239;
+   margin-top: 24px;
+}
+.ex-main .right .a1{
+   font-size: 16px;
+   font-weight: 600;
+   color: #203239;
+   border: 1px solid #203239;
+   display: inline-block;
+   padding: 13px 0;
+   padding-right: 41px;
+   padding-left: 77px;
+   padding-top: 13px;
+   text-decoration: none;
+   border-radius: 10px;
+   margin-right: 48px;
+   transition: 0.3s;
+}
+.ex-main .right .a1:hover{
+   background: #203239;
+   color: #FFFFFF;
+}
+.ex-main .right .phone{
+   position: absolute;
+   top: 18px;
+   left: 48px;
+}
+.ex-main .right .a2{
+   font-size: 16px;
+   font-weight: 600;
+   color: #203239;
+   border: 1px solid #203239;
+   display: inline-block;
+   padding: 13px 41px;
+   text-decoration: none;
+   border-radius: 10px;
+   transition: 0.3s;
+}
+.ex-main .right .a2:hover{
+   background: #203239;
+   color: #FFFFFF;
+}
+/* ========== explore css end ========== */
+
+/* ========== resident css start ========== */
+#resident{
+   width: 100%;
+   background: #FFFFFF;;
+}
+#resident .container{
+   width: 1166px;
+}
+#resident .details{
+   padding: 68px 0;
+}
+#resident .container .areas{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 64px;
+}
+#resident .details h5{
+   font-size: 16px;
+   font-weight: 500;
+   color: #FF7527;
+}
+#resident .details h2{
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 150%;
+   color: #203239;
+   margin-top: 8px;
+}
+#resident .details .areas h3{
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 150%;
+   color: #203239;
+   margin-top: 16px;
+}
+#resident .details .areas p{
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 30px;
+   color: #203239;
+   width: 356px;
+   margin-top: 8px;
+}
+/* ========== resident css end ========== */
+
+/* ========== call css start ========== */
+#kami{
+   width: 100%;
+   background: #EEEDDE;
+}
+#kami .wrapper{
+   display: flex;
+   padding: 48px 0;
+}
+#kami .wrapper .left h2{
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 150%;
+   color: #203239;
+}
+.wrapper .left-bottom {
+   display: flex;
+   gap: 24px;
+   margin-top: 74px;
+}
+.wrapper .left-bottom .call-1{
+   background: #FFFFFF;
+   border: 1px solid #FFFFFF;
+   border-radius: 10px;
+   padding-top: 25px;
+   padding-bottom: 15px;
+   position: relative;
+}
+.wrapper .left-bottom .call-2{
+   background: #FFFFFF;
+   border: 0;
+   border-radius: 10px;
+   padding-top: 25px;
+   padding-bottom: 15px;
+   position: relative;
+}
+.wrapper .left-bottom h3{
+   font-size: 16px;
+   font-weight: 500;
+   color: #203239;
+   margin-left: 104px;
+}
+.wrapper .left-bottom .call-1 i{
+   position: absolute;
+   font-size: 34px;
+   top: 55px;
+   left: 41px;
+}
+.wrapper .left-bottom .call-2 i{
+   position: absolute;
+   font-size: 34px;
+   top: 55px;
+   left: 41px;
+}
+.wrapper .left-bottom h4{
+   font-size: 16px;
+   font-weight: 400;
+   color: #203239;
+   margin-left: 98px;
+   margin-top: 8px;
+   margin-right: 41px;
+}
+.wrapper .left-bottom a{
+   font-size: 16px;
+   font-weight: 600;
+   color: #FFFFFF;
+   margin-left: 83px;
+   margin-top: 27px;
+   margin-right: 41px;
+   background: #203239;
+   border: 1px solid;
+   border-radius: 5px;
+   text-decoration: none;
+   display: inline-block;
+   padding: 10px 18px;
+}
+#kami .wrapper .right{
+   margin-top: 88px;
+}
+
+/* ========== call css end ========== */
+
+/* ========== footer css start ========== */
+#footer{
+   width: 100%;
+   background: #203239;
+}
+#footer .container{
+   width: 1166px;
+}
+.footer-main {
+   display: flex;
+   justify-content: space-between;
+   padding: 31px 0;
+}
+.footer-main img{
+  width: 72px;
+}
+.footer-main ul{
+   display: flex;
+   gap: 64px;
+   list-style: none;
+}
+.footer-main ul li{
+   color: #EEEDDE;
+   font-size: 24px;
+}
+/* ========== footer css end ========== */
